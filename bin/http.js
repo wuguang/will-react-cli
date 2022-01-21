@@ -14,6 +14,9 @@ axios.interceptors.response.use(res => {
  */
 async function getRepoList() {
   return axios.get('https://api.github.com/orgs/zhurong-cli/repos')
+
+
+  //https://api.github.com/repos/wuguang/will-react-cli
 }
 
 /**
